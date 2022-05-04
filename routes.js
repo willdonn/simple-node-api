@@ -8,7 +8,8 @@ router.get("/todos", function(req, res) {
 });
 
 router.post("/shippingcost", (req, res) => {
-  const response = {
+  console.log(req);
+const response = {
     "rates": [
         {
             'service_name': 'canadapost-overnight',
